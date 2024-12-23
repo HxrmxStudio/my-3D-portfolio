@@ -1,12 +1,12 @@
 # My 3D Portfolio
 
-Welcome to my interactive 3D portfolio project! This portfolio is designed to showcase my knowledge in modern web development, utilizing cutting-edge technologies like ReactJS and Three.js.
+Welcome to my interactive 3D portfolio project! As a junior developer, this project reflects my journey into modern web development, showcasing both my skills and enthusiasm for learning cutting-edge technologies like ReactJS and Three.js.
 
 ---
 
 ## 🌟 Features
 
-- **Immersive 3D Elements**: Experience visually appealing 3D models and animations powered by Three.js.
+- **Immersive 3D Elements**: Experience visually appealing 3D models and animations powered by Three.js. 
 - **Responsive Layout**: Adaptable design that looks great on any device.
 - **Dynamic Content Management**: Easily customizable to showcase projects, skills, and experience.
 - **Functional Contact Form**: Integrated with EmailJS to receive messages directly.
