@@ -31,6 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import alchemy from './alchemy.png'
+import logoBuenardo from './logoBuenardo.png'
+import papernestIcon from './papernestIcon.png'
+import isdiIcon from './isdiIcon.png'
+
 
 export {
   logo,
@@ -61,5 +65,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  alchemy
+  alchemy,
+  logoBuenardo,
+  papernestIcon,
+  isdiIcon
 };

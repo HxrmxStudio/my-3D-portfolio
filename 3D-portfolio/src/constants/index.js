@@ -15,10 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    papernestIcon,
+    logoBuenardo,
+    isdiIcon,
     carrent,
     jobit,
     tripguide,
@@ -46,7 +45,7 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React Developer",
         icon: mobile,
     },
     {
@@ -54,7 +53,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Team Player & Learner",
         icon: creator,
     },
 ];
@@ -116,58 +115,74 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Full Stack Developer - Student",
+        company_name: "ISDI Coders Bootcamp",
+        icon: isdiIcon, // Define or import the appropriate icon
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed and developed full stack web applications using JavaScript, React.js, Node.js, and MongoDB.",
+            "Implemented responsive and mobile-first designs ensuring cross-browser compatibility.",
+            "Collaborated in agile teams to create functional and aesthetically pleasing projects, applying version control with Git.",
+            "Integrated RESTful APIs to ensure smooth communication between frontend and backend systems.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Team Lead Account Manager B2B - Spain",
+        company_name: "Papernest",
+        icon: papernestIcon, // Define or import the appropriate icon
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "March 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Utilized CRM tools like Salesforce to analyze client data and automate workflows, gaining insight into software integrations.",
+            "Collaborated closely with product teams, providing feedback that informed technical improvements and feature enhancements.",
+            "Developed data-driven dashboards and reports, translating business needs into actionable insights using tech tools.",
+            "Demonstrated leadership and team management skills by mentoring and guiding team members to achieve collective goals.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Account Manager - Customer Success & Onboarding Specialist",
+        company_name: "Papernest",
+        icon: papernestIcon, // Define or import the appropriate icon
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "October 2020 - March 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Streamlined onboarding processes by identifying bottlenecks and suggesting process automation opportunities.",
+            "Explored APIs and SaaS solutions to ensure seamless integration with client systems.",
+            "Provided technical guidance to clients during onboarding, ensuring alignment with product capabilities.",
+            "Exhibited strong interpersonal and leadership abilities to foster collaboration and improve team performance.",
+        ],
+    },
+    {
+        title: "E-commerce Manager",
+        company_name: "Entelequia Comic-Book Store",
+        icon: logoBuenardo, // Define or import the appropriate icon
+        iconBg: "#383E56",
+        date: "July 2019 - October 2020",
+        points: [
+            "Managed online sales platforms, ensuring their functionality and uptime through technical troubleshooting.",
+            "Analyzed user behavior on the e-commerce website to improve UX/UI and optimize conversion rates.",
+            "Implemented SEO and digital tools to enhance the platform’s visibility and performance.",
+            "Led cross-functional teams to align e-commerce operations with strategic business goals.",
+        ],
+    },
+    {
+        title: "Community Manager",
+        company_name: "Entelequia Comic-Book Store",
+        icon: logoBuenardo, // Define or import the appropriate icon
+        iconBg: "#E6DEDD",
+        date: "August 2017 - October 2020",
+        points: [
+            "Planned and executed digital campaigns using data analytics tools to track performance.",
+            "Worked with CMS platforms to manage and publish content for online audiences.",
+            "Collaborated with designers and developers to align branding across digital platforms.",
+            "Developed leadership skills by coordinating with diverse teams to ensure campaign success.",
         ],
     },
 ];
+
+
+
 
 const testimonials = [
     {
