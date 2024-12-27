@@ -72,16 +72,8 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",
@@ -107,17 +99,13 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
 ];
 
 const experiences = [
     {
         title: "Full Stack Developer - Student",
         company_name: "ISDI Coders Bootcamp",
-        icon: isdiIcon, // Define or import the appropriate icon
+        icon: isdiIcon,
         iconBg: "#E6DEDD",
         date: "2024",
         points: [
@@ -130,11 +118,11 @@ const experiences = [
     {
         title: "Team Lead Account Manager B2B - Spain",
         company_name: "Papernest",
-        icon: papernestIcon, // Define or import the appropriate icon
+        icon: papernestIcon,
         iconBg: "#383E56",
         date: "March 2022 - Present",
         points: [
-            "Utilized CRM tools like Salesforce to analyze client data and automate workflows, gaining insight into software integrations.",
+            "Utilized CRM tools such as Salesforce to analyze client data and automate workflows, gaining insight into software integrations.",
             "Collaborated closely with product teams, providing feedback that informed technical improvements and feature enhancements.",
             "Developed data-driven dashboards and reports, translating business needs into actionable insights using tech tools.",
             "Demonstrated leadership and team management skills by mentoring and guiding team members to achieve collective goals.",
@@ -143,7 +131,7 @@ const experiences = [
     {
         title: "Account Manager - Customer Success & Onboarding Specialist",
         company_name: "Papernest",
-        icon: papernestIcon, // Define or import the appropriate icon
+        icon: papernestIcon,
         iconBg: "#E6DEDD",
         date: "October 2020 - March 2022",
         points: [
@@ -156,7 +144,7 @@ const experiences = [
     {
         title: "E-commerce Manager",
         company_name: "Entelequia Comic-Book Store",
-        icon: logoBuenardo, // Define or import the appropriate icon
+        icon: logoBuenardo,
         iconBg: "#383E56",
         date: "July 2019 - October 2020",
         points: [
@@ -169,7 +157,7 @@ const experiences = [
     {
         title: "Community Manager",
         company_name: "Entelequia Comic-Book Store",
-        icon: logoBuenardo, // Define or import the appropriate icon
+        icon: logoBuenardo,
         iconBg: "#E6DEDD",
         date: "August 2017 - October 2020",
         points: [
