@@ -4,24 +4,21 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
     papernestIcon,
     logoBuenardo,
     isdiIcon,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    entelequiaPreview,
+    portfolioPreview,
+    unsocialPreview
 } from "../assets";
 
 export const navLinks = [
@@ -201,9 +198,9 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Entelequia Ecommerce",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A web-based platform for a comic book store, enabling users to browse products, manage shopping carts, and place orders.",
         tags: [
             {
                 name: "react",
@@ -218,41 +215,20 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: entelequiaPreview, // Replace with actual image variable or URL
+        source_code_link: "https://github.com/HxrmxStudio/Entelequia-E-commerce",
     },
     {
-        name: "Job IT",
+        name: "Portfolio 3D",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "An interactive portfolio showcasing projects and skills using 3D animations and modern web technologies to create an engaging user experience.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
+                name: "three.js",
                 color: "green-text-gradient",
             },
             {
@@ -260,9 +236,31 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: portfolioPreview, // Replace with actual image variable or URL
+        source_code_link: "https://github.com/HxrmxStudio/my-3D-portfolio",
+    },
+    {
+        name: "Unsocial",
+        description:
+            "A social media platform allowing users to create posts, respond to nested comments, and interact in real-time. The project features responsive design and a RESTful API backend.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: unsocialPreview, // Replace with actual image variable or URL
+        source_code_link: "https://github.com/HxrmxStudio/Unsocial--Social-Network",
     },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
