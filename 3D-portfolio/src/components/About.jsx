@@ -1,11 +1,13 @@
-import React from 'react';
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import React from 'react'
+import { Tilt } from 'react-tilt'
+import { motion } from 'framer-motion'
 
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import SectionWrapper from '../hoc/SectionWrapper';
+import { styles } from '../styles'
+import { services } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
+import SectionWrapper from '../hoc/SectionWrapper'
+import { useLanguage } from '../context/LanguageContext'
+import { translations } from '../utils/translations'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -35,18 +37,27 @@ const ServiceCard = ({ index, title, icon }) => {
 };
 
 const About = () => {
+  const { language } = useLanguage()
+
+  const t = translations[language]
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <p className={styles.sectionSubText}>{t.about.introduction}</p>
+        <h2 className={styles.sectionHeadText}>{t.about.overview}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I’m a passionate Jr. developer with experience in the MERN stack (MongoDB, Express, React, Node.js). I specialize in building scalable and engaging web solutions, always focusing on usability and performance. Beyond my technical skills, I thrive in team environments, promoting open and collaborative communication. I bring strong leadership capabilities, enabling me to coordinate efforts and guide projects toward clear objectives. Personally, I’m curious and dedicated, constantly seeking to learn and improve.
+        {t.about.description.split('\n').map((text, idx) => (
+          <React.Fragment key={idx}>
+            {text}
+            <br />
+          </React.Fragment>
+        ))}
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

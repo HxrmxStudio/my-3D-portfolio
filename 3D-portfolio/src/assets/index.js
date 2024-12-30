@@ -25,7 +25,8 @@ import isdiIcon from './isdiIcon.png'
 import entelequiaPreview from './entelequiaPreview.png'
 import portfolioPreview from './portfolioPreview.png'
 import unsocialPreview from './unsocialPreview.png'
-
+import discord from './discord.png'
+import linkedin from './linkedin.png'
 
 export {
   logo,
@@ -52,5 +53,7 @@ export {
   isdiIcon,
   entelequiaPreview,
   portfolioPreview,
-  unsocialPreview
+  unsocialPreview,
+  discord,
+  linkedin
 };
