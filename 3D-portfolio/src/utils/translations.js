@@ -9,7 +9,7 @@ export const translations = {
         hero: {
             greeting: "Hi, I'm",
             name: "Emiliano",
-            description_part1: "I’m a Jr. MERN stack developer,",
+            description_part1: "I’m a MERN stack developer,",
             description_part2:
                 "passionate about building functional web applications and learning new things.",
         },
@@ -59,7 +59,7 @@ export const translations = {
         hero: {
             greeting: "Hola, soy",
             name: "Emiliano",
-            description_part1: "Soy un desarrollador Jr. MERN stack,",
+            description_part1: "Soy un desarrollador MERN stack,",
             description_part2:
                 "apasionado por construir aplicaciones web funcionales y aprender cosas nuevas.",
         },
@@ -67,7 +67,7 @@ export const translations = {
             introduction: "Introducción",
             overview: "Sobre Mi",
             description:
-                "Después de liderar equipos en diferentes entornos, me di cuenta de que faltaba algo. No estaba haciendo lo que me apasiona. Entonces, en 2024, di el salto y decidí dedicarme por completo a mi amor por la tecnología y la programación.\n\nAhora mi objetivo es crear soluciones que sean escalables, fáciles de usar y que funcionen!. Mi experiencia en liderazgo y colaboración con distintos equipos me ayuda a prosperar en entornos dinamicos, donde reúno a las personas, me comunico abiertamente y mantengo los proyectos al dia. Soy naturalmente curioso y siempre estoy ansioso por aprender cosas nuevas, ya sea buscando mejores maneras de resolver un problema, lo último en tecnología o algún conocimiento aleatorio (¿Sabías que los pulpos tienen 8 cerebros?).\n\nEste nuevo capítulo me emociona, y estoy listo para aportar mi energía, habilidades y motivación a proyectos que marquen la diferencia.",
+                "Después de liderar equipos en diferentes entornos, me di cuenta de que faltaba algo. No estaba haciendo lo que me apasiona. Asi que, en 2024, di el salto y decidí dedicarme por completo a mi amor por la tecnología y la programación.\n\nAhora mi objetivo es crear soluciones que sean escalables, fáciles de usar y que funcionen!. Mi experiencia en liderazgo y colaboración con distintos equipos me ayuda a prosperar en entornos dinamicos, donde reúno a las personas, me comunico abiertamente y mantengo los proyectos al dia. Soy naturalmente curioso y siempre estoy ansioso por aprender cosas nuevas, ya sea buscando mejores maneras de resolver un problema, lo último en tecnología o algún conocimiento aleatorio (¿Sabías que los pulpos tienen 8 cerebros?).\n\nEste nuevo capítulo me emociona, y estoy listo para aportar mi energía, habilidades y motivación a proyectos que marquen la diferencia.",
         },
         experience: {
             subtitle: "Lo que he hecho hasta ahora",

@@ -27,6 +27,7 @@ import portfolioPreview from './portfolioPreview.png'
 import unsocialPreview from './unsocialPreview.png'
 import discord from './discord.png'
 import linkedin from './linkedin.png'
+import demo from './demo.png'
 
 export {
   logo,
@@ -55,5 +56,6 @@ export {
   portfolioPreview,
   unsocialPreview,
   discord,
-  linkedin
+  linkedin,
+  demo
 };

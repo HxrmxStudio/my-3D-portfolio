@@ -234,7 +234,8 @@ const projects = [
             },
         ],
         image: entelequiaPreview,
-        source_code_link: "https://github.com/HxrmxStudio/Entelequia-E-commerce",
+        source_code_link1: "https://github.com/HxrmxStudio/Entelequia-E-commerce",
+        source_code_link2: "https://entelequia-frontend.vercel.app/",
     },
     {
         translations: {
@@ -264,7 +265,8 @@ const projects = [
             },
         ],
         image: portfolioPreview,
-        source_code_link: "https://github.com/HxrmxStudio/my-3D-portfolio",
+        source_code_link1: "https://github.com/HxrmxStudio/my-3D-portfolio",
+        source_code_link2: "https://github.com/HxrmxStudio/my-3D-portfolio",
     },
     {
         translations: {
@@ -294,7 +296,7 @@ const projects = [
             },
         ],
         image: unsocialPreview,
-        source_code_link: "https://github.com/HxrmxStudio/Unsocial--Social-Network",
+        source_code_link1: "https://github.com/HxrmxStudio/Unsocial--Social-Network",
     },
 ];
 
