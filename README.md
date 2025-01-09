@@ -60,9 +60,4 @@ Feel free to reach out to me for collaborations or inquiries:
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
 
----
 
-## 🙌 Acknowledgments
-
-- Tutorial by [Adrian Hajdin](https://github.com/adrianhajdin/project_3D_developer_portfolio.git).
-- Special thanks to the open-source community for providing incredible tools and resources!
