@@ -4,6 +4,7 @@ import {
     creator,
     web,
     javascript,
+    typescript,
     html,
     css,
     reactjs,
@@ -14,12 +15,15 @@ import {
     figma,
     papernestIcon,
     logoBuenardo,
-    isdiIcon,
+    maindericon,
     threejs,
     entelequiaPreview,
     portfolioPreview,
-    unsocialPreview
-} from "../assets";
+    unsocialPreview,
+    logiFrozenPreview,
+    linkedinExtension,
+    bochitaCrypto
+} from "../assets"
 
 export const navLinks = [
     { id: 'home', title: 'Home' },
@@ -61,6 +65,10 @@ const technologies = [
         icon: javascript,
     },
     {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
         name: "React JS",
         icon: reactjs,
     },
@@ -94,29 +102,29 @@ const experiences = [
     {
         translations: {
             en: {
-                title: "Full Stack Developer - Student",
-                company_name: "ISDI Coders Bootcamp",
-                date: "2024",
+                title: "Frontend Developer",
+                company_name: "MainderAI",
+                date: "January 2025 - Present",
                 points: [
-                    "Designed and developed full stack web applications using JavaScript, React.js, Node.js, and MongoDB.",
-                    "Implemented responsive and mobile-first designs ensuring cross-browser compatibility.",
-                    "Collaborated in agile teams to create functional projects, applying version control with Git.",
-                    "Integrated RESTful APIs to ensure smooth communication between frontend and backend systems.",
+                    "Developed a Google Chrome extension with TypeScript and React to extract LinkedIn profiles for data enrichment.",
+                    "Designed a high-quality UX/UI interface, ensuring an intuitive user experience.",
+                    "Implemented scalable API solutions to automate and optimize data extraction.",
+                    "Collaborated to integrate AI-driven features, enhancing automation and user satisfaction.",
                 ],
             },
             es: {
-                title: "Desarrollador Full Stack - Estudiante",
-                company_name: "ISDI Coders Bootcamp",
-                date: "2024",
+                title: "Frontend Developer",
+                company_name: "MainderAI",
+                date: "Enero 2025 - Presente",
                 points: [
-                    "Diseñé y desarrollé aplicaciones web full stack utilizando JavaScript, React.js, Node.js y MongoDB.",
-                    "Implementé diseños responsive asegurando la compatibilidad entre navegadores.",
-                    "Colaboré en equipo para crear proyectos funcionales, aplicando control de versiones con Git.",
-                    "Integré APIs RESTful para garantizar una comunicación fluida entre sistemas frontend y backend.",
+                    "Desarrollé una extensión de Google Chrome con TypeScript y React para la extracción de perfiles de LinkedIn.",
+                    "Diseñé una interfaz UX/UI de alta calidad, garantizando una experiencia intuitiva.",
+                    "Implementé soluciones escalables con APIs para automatizar y optimizar la extracción de datos.",
+                    "Colaboré en la integración de funciones basadas en IA, mejorando la automatización y la satisfacción del usuario.",
                 ],
             },
         },
-        icon: isdiIcon,
+        icon: maindericon,
         iconBg: "#E6DEDD",
     },
     {
@@ -126,10 +134,10 @@ const experiences = [
                 company_name: "Papernest",
                 date: "March 2022 - September 2024",
                 points: [
-                    "Utilized CRM tools such as Salesforce to analyze client data and automate workflows, gaining insight into software integrations.",
-                    "Collaborated closely with product teams, providing feedback that informed technical improvements and feature enhancements.",
-                    "Developed data-driven dashboards and reports, translating business needs into actionable insights using tech tools.",
-                    "Demonstrated leadership and team management skills by mentoring and guiding team members to achieve collective goals.",
+                    "Leveraged Salesforce to analyze client data and automate workflows.",
+                    "Collaborated with product teams to drive technical improvements and feature updates.",
+                    "Created data-driven dashboards and reports, aligning business needs with actionable insights.",
+                    "Mentored team members, enhancing performance and achieving collective goals.",
                 ],
             },
             es: {
@@ -137,10 +145,10 @@ const experiences = [
                 company_name: "Papernest",
                 date: "Marzo 2022 - Septiembre 2024",
                 points: [
-                    "Utilicé herramientas CRM como Salesforce para analizar datos de clientes y automatizar flujos de trabajo, obteniendo información sobre integraciones de software.",
-                    "Colaboré estrechamente con equipos de producto, proporcionando comentarios que impulsaron mejoras técnicas y nuevas funcionalidades.",
-                    "Desarrollé dashboards y reportes basados en datos, traduciendo necesidades empresariales en ideas accionables mediante herramientas tecnológicas.",
-                    "Desarrolle habilidades de liderazgo y gestión de equipos, mentorizando y guiando a los miembros del equipo para alcanzar objetivos colectivos.",
+                    "Utilicé Salesforce para analizar datos de clientes y automatizar flujos de trabajo.",
+                    "Colaboré con equipos de producto para impulsar mejoras técnicas y nuevas funcionalidades.",
+                    "Creé dashboards y reportes basados en datos, alineando necesidades empresariales con ideas accionables.",
+                    "Mentoricé a los miembros del equipo, mejorando el rendimiento y alcanzando objetivos colectivos.",
                 ],
             },
         },
@@ -154,10 +162,10 @@ const experiences = [
                 company_name: "Papernest",
                 date: "October 2020 - March 2022",
                 points: [
-                    "Streamlined onboarding processes by identifying improvements and suggesting process automation opportunities.",
-                    "Explored APIs and SaaS solutions to ensure seamless integration with client systems.",
-                    "Provided technical guidance to clients during onboarding, ensuring alignment with product capabilities.",
-                    "Exhibited strong interpersonal and leadership abilities to foster collaboration and improve team performance.",
+                    "Optimized onboarding processes with automation improvements.",
+                    "Ensured seamless integration by exploring APIs and SaaS solutions.",
+                    "Provided technical support to align client onboarding with product capabilities.",
+                    "Leveraged leadership and interpersonal skills to enhance team collaboration.",
                 ],
             },
             es: {
@@ -165,10 +173,10 @@ const experiences = [
                 company_name: "Papernest",
                 date: "Octubre 2020 - Marzo 2022",
                 points: [
-                    "Optimicé los procesos de onboarding identificando mejoras y sugiriendo oportunidades de automatización.",
-                    "Exploré APIs y soluciones SaaS para garantizar una integración fluida con los sistemas de los clientes.",
-                    "Proporcioné orientación técnica a los clientes durante el onboarding, asegurando alineación con las capacidades del producto.",
-                    "Demostré habilidades interpersonales y de liderazgo para fomentar la colaboración y mejorar el rendimiento del equipo.",
+                    "Optimicé procesos de onboarding con mejoras de automatización.",
+                    "Garanticé integraciones fluidas explorando APIs y soluciones SaaS.",
+                    "Brindé soporte técnico para alinear el onboarding con las capacidades del producto.",
+                    "Apliqué habilidades de liderazgo e interpersonales para mejorar la colaboración del equipo.",
                 ],
             },
         },
@@ -182,10 +190,10 @@ const experiences = [
                 company_name: "Entelequia Comic-Book Store",
                 date: "July 2019 - October 2020",
                 points: [
-                    "Managed online sales platforms, ensuring their functionality and uptime through technical troubleshooting.",
-                    "Analyzed user behavior on the e-commerce website to improve UX/UI and optimize conversion rates.",
-                    "Implemented SEO and digital tools to enhance the platform’s visibility and performance.",
-                    "Led cross-functional teams to align e-commerce operations with strategic business goals.",
+                    "Managed online sales platforms, ensuring functionality and uptime.",
+                    "Improved UX/UI and conversion rates through user behavior analysis.",
+                    "Enhanced platform visibility using SEO and digital tools.",
+                    "Aligned e-commerce operations with strategic business goals.",
                 ],
             },
             es: {
@@ -193,10 +201,10 @@ const experiences = [
                 company_name: "Entelequia Comic-Book Store",
                 date: "Julio 2019 - Octubre 2020",
                 points: [
-                    "Gestioné plataformas de ventas online, asegurando su funcionalidad y tiempo de actividad mediante resolución de problemas técnicos.",
-                    "Analicé el comportamiento de los usuarios en el sitio web de e-commerce para mejorar la UX/UI y optimizar las tasas de conversión.",
-                    "Implementacion de SEO y herramientas digitales para mejorar la visibilidad y el rendimiento de la plataforma.",
-                    "Lideré equipos multifuncionales para alinear las operaciones de e-commerce con los objetivos estratégicos del negocio.",
+                    "Gestioné plataformas de ventas online, asegurando su funcionalidad y tiempo de actividad.",
+                    "Mejoré la UX/UI y las tasas de conversión mediante análisis de comportamiento de usuarios.",
+                    "Mejoré la visibilidad de la plataforma con SEO y herramientas digitales.",
+                    "Alineé operaciones de e-commerce con objetivos estratégicos del negocio.",
                 ],
             },
         },
@@ -206,6 +214,148 @@ const experiences = [
 ];
 
 const projects = [
+    {
+        translations: {
+            en: {
+                name: "LinkedIn Profile Extractor",
+                description:
+                    "A Google Chrome extension developed at MainderAI to automate LinkedIn profile extraction. Built with TypeScript and React, it integrates scalable APIs and features a seamless UX/UI design for optimal user experience.",
+            },
+            es: {
+                name: "Extractor de Perfiles de LinkedIn",
+                description:
+                    "Extensión de Google Chrome desarrollada en MainderAI para automatizar la extracción de perfiles de LinkedIn. Construida con TypeScript y React, integra APIs escalables y cuenta con un diseño UX/UI fluido para una experiencia óptima.",
+            },
+
+
+        },
+        tags: [
+            {
+                name: "typescript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "react",
+                color: "green-text-gradient",
+            },
+            {
+                name: "apis integration",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "UX/UI design",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "automation",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: linkedinExtension,
+        source_code_link1: "https://github.com/HxrmxStudio/",
+        source_code_link2: "https://github.com/HxrmxStudio/"
+    },
+    {
+        translations: {
+            en: {
+                name: "Web3 Transaction App",
+                description:
+                    "A React.js app that connects Ethereum wallets via MetaMask, using Solidity to create and deploy Smart Contracts for blockchain transactions.",
+            },
+            es: {
+                name: "Aplicación de Transacciones Web3",
+                description:
+                    "App en React.js que conecta billeteras Ethereum mediante MetaMask y utiliza Solidity para crear y desplegar Smart Contracts para transacciones en blockchain.",
+            },
+        },
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "solidity",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "blockchain",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "metamask",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "ethereum",
+                color: "green-text-gradient",
+            },
+        ],
+        image: bochitaCrypto,
+        source_code_link1: "https://github.com/HxrmxStudio/Bochita-Crypto",
+        source_code_link2: "https://github.com/HxrmxStudio/Bochita-Crypto"
+    },
+    {
+        translations: {
+            en: {
+                name: "LogiFrozen Web",
+                description:
+                    "A professional landing page designed for a logistics company specializing in frozen food transport. The website emphasizes brand identity, customer engagement, and showcases services with a modern and responsive design.",
+            },
+            es: {
+                name: "LogiFrozen Web",
+                description:
+                    "Landing page profesional diseñada para una empresa de logística especializada en el transporte de alimentos congelados. El sitio destaca la identidad de la marca, el compromiso con los clientes y presenta servicios con un diseño moderno y responsivo.",
+            },
+        },
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "green-text-gradient",
+            },
+            {
+                name: "seo",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: logiFrozenPreview,
+        source_code_link1: "https://github.com/HxrmxStudio/LogiFrozen-LandingPage",
+        source_code_link2: "https://logi-frozen-landing-page.vercel.app/"
+    },
+    {
+        translations: {
+            en: {
+                name: "Portfolio 3D",
+                description:
+                    "An interactive portfolio showcasing my projects and skills using 3D animations and modern web technologies to create an engaging user experience.",
+            },
+            es: {
+                name: "Portfolio 3D",
+                description:
+                    "Portafolio interactivo que muestra mis proyectos y habilidades utilizando animaciones 3D y tecnologías web modernas para crear una experiencia atractiva para el usuario.",
+            },
+        },
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "three.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: portfolioPreview,
+        source_code_link1: "https://github.com/HxrmxStudio/my-3D-portfolio",
+        source_code_link2: "https://emiliano-rozas.com/",
+    },
     {
         translations: {
             en: {
@@ -240,37 +390,6 @@ const projects = [
     {
         translations: {
             en: {
-                name: "Portfolio 3D",
-                description:
-                    "An interactive portfolio showcasing projects and skills using 3D animations and modern web technologies to create an engaging user experience.",
-            },
-            es: {
-                name: "Portfolio 3D",
-                description:
-                    "Un portafolio interactivo que muestra proyectos y habilidades utilizando animaciones 3D y tecnologías web modernas para crear una experiencia atractiva para el usuario.",
-            },
-        },
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "three.js",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: portfolioPreview,
-        source_code_link1: "https://github.com/HxrmxStudio/my-3D-portfolio",
-        source_code_link2: "https://github.com/HxrmxStudio/my-3D-portfolio",
-    },
-    {
-        translations: {
-            en: {
                 name: "Unsocial",
                 description:
                     "A social media platform allowing users to create posts, respond to nested comments, and interact in real-time. This was my first project with which I discovered what it is to be a full stack developer.",
@@ -297,6 +416,7 @@ const projects = [
         ],
         image: unsocialPreview,
         source_code_link1: "https://github.com/HxrmxStudio/Unsocial--Social-Network",
+        source_code_link2: "https://github.com/HxrmxStudio/Unsocial--Social-Network"
     },
 ];
 

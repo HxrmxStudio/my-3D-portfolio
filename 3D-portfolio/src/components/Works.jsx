@@ -1,6 +1,6 @@
 import { Tilt } from "react-tilt"
 import { motion } from "framer-motion"
-
+import React from "react"
 import { styles } from '../styles'
 import { github, demo } from '../assets'
 import { SectionWrapper } from '../hoc'
@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion'
 import { useLanguage } from '../context/LanguageContext'
 import { translations } from '../utils/translations'
 
-const ProjectCard = ({ index, translations, tags, image, source_code_link1, source_code_link2 }) => {
+const ProjectCard = React.memo(({ index, translations, tags, image, source_code_link1, source_code_link2 }) => {
   const { language } = useLanguage()
   const project = translations[language]
 
@@ -22,18 +22,24 @@ const ProjectCard = ({ index, translations, tags, image, source_code_link1, sour
         <div className="relative w-full h-[230px]">
           <img src={image} alt={project.name} className="w-full h-full object-cover rounded-2xl" />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
+            <motion.div
               onClick={() => window.open(source_code_link2, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              aria-label="View Demo"
             >
               <img src={demo} alt="Demo" className="w-1/2 h-1/2 object-contain" />
-            </div>
-            <div
+            </motion.div>
+            <motion.div
               onClick={() => window.open(source_code_link1, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              aria-label="View GitHub Source Code"
             >
               <img src={github} alt="GitHub" className="w-1/2 h-1/2 object-contain" />
-            </div>
+            </motion.div>
           </div>
         </div>
         <div className="mt-5">
@@ -42,19 +48,24 @@ const ProjectCard = ({ index, translations, tags, image, source_code_link1, sour
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            <motion.p
+              key={tag.name}
+              className={`text-[14px] ${tag.color}`}
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.2 }}
+            >
               #{tag.name}
-            </p>
+            </motion.p>
           ))}
         </div>
       </Tilt>
     </motion.div>
   );
-};
+});
 
 const Works = () => {
   const { language } = useLanguage();
-  const t = translations[language]; // Traducciones generales de la sección
+  const t = translations[language];
 
   return (
     <>
@@ -80,6 +91,6 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
 
 

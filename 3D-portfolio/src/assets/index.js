@@ -17,14 +17,18 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png"
 
 import alchemy from './alchemy.png'
-import logoBuenardo from './logoBuenardo.png'
-import papernestIcon from './papernestIcon.png'
-import isdiIcon from './isdiIcon.png'
-import entelequiaPreview from './entelequiaPreview.png'
-import portfolioPreview from './portfolioPreview.png'
-import unsocialPreview from './unsocialPreview.png'
+import logoBuenardo from './company/logoBuenardo.png'
+import papernestIcon from './company/papernestIcon.png'
+import maindericon from './company/maindericon.png'
+import entelequiaPreview from './projects/entelequiaPreview.png'
+import portfolioPreview from './projects/portfolioPreview.png'
+import unsocialPreview from './projects/unsocialPreview.png'
+import logiFrozenPreview from './projects/logiFrozenPreview.png'
+import linkedinExtension from './projects/linkedinExtension.png'
+import bochitaCrypto from './projects/bochitaCrypto.png'
 import discord from './discord.png'
 import linkedin from './linkedin.png'
 import demo from './demo.png'
@@ -47,15 +51,19 @@ export {
   nodejs,
   reactjs,
   tailwind,
+  typescript,
   threejs,
   alchemy,
   logoBuenardo,
   papernestIcon,
-  isdiIcon,
   entelequiaPreview,
   portfolioPreview,
   unsocialPreview,
+  logiFrozenPreview,
+  bochitaCrypto,
+  linkedinExtension,
   discord,
   linkedin,
-  demo
+  demo,
+  maindericon
 };

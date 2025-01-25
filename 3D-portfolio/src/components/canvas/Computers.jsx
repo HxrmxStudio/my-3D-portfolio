@@ -1,11 +1,13 @@
-import React, { Suspense, useEffect, useState } from 'react'
-import { Canvas } from '@react-three/fiber'
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
+import React, { Suspense, useEffect, useState, useMemo } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
+import CanvasLoader from '../Loader';
 
-import CanvasLoader from '../Loader'
+const Computers = React.memo(({ isMobile }) => {
+  const { scene } = useGLTF('./desktop_pc/scene-draco.gltf', true);
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+
+  const computerScene = useMemo(() => scene.clone(), [scene]);
 
   return (
     <mesh>
@@ -17,38 +19,34 @@ const Computers = ({ isMobile }) => {
         penumbra={1}
         intensity={1}
         castShadow
-        shadow-mapSize={1024}
+        shadow-mapSize={256}
       />
       <primitive
-        object={computer.scene}
+        object={computerScene}
         scale={isMobile ? 0.7 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
-  )
-}
+  );
+});
+
+useGLTF.preload('./desktop_pc/scene-draco.gltf');
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (!window.matchMedia) return
-
-    const mediaQuery = window.matchMedia('(max-width: 500px)')
-
-    setIsMobile(mediaQuery.matches)
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches)
-    }
+      setIsMobile(event.matches);
+    };
 
-    mediaQuery.addEventListener('change', handleMediaQueryChange)
-
-    return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange)
-    }
-  }, [])
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    return () => mediaQuery.removeEventListener('change', handleMediaQueryChange);
+  }, []);
 
   return (
     <Canvas
@@ -65,10 +63,9 @@ const ComputersCanvas = () => {
         />
         <Computers isMobile={isMobile} />
       </Suspense>
-
       <Preload all />
     </Canvas>
-  )
-}
+  );
+};
 
-export default ComputersCanvas
+export default React.memo(ComputersCanvas);

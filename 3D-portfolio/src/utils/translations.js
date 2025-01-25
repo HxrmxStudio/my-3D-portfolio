@@ -9,15 +9,15 @@ export const translations = {
         hero: {
             greeting: "Hi, I'm",
             name: "Emiliano",
-            description_part1: "I’m a MERN stack developer,",
+            description_part1: "I’m a Full-stack developer,",
             description_part2:
-                "passionate about building functional web applications and learning new things.",
+                "passionate about building functional solutions and learning new things.",
         },
         about: {
             introduction: "Introduction",
             overview: "Overview",
             description:
-                "After sometime leading teams in different environments, I realized something was missing. I wasn’t building the things I was passionate about. So, in 2024, I made the leap and decided to fully embrace my love for technology and programming.\n\nNow, I focus on creating solutions that are scalable, user-friendly, and just work. My background in leadership and collaboration helps me thrive in team settings, where I bring people together, communicate openly, and keep projects on track. I’m naturally curious and always eager to learn new things, whether it’s a better way to solve a problem, the latest tool in tech or some random knowledge (Do you know that octopuses have 8 brains?).\n\nThis new chapter excites me, and I’m ready to bring my energy, skills, and drive to projects that make a difference.",
+                "After sometime leading teams in different environments, I realized something was missing. I wasn’t doing the things I was passionate about. So, in 2024, I made the leap and decided to fully embrace my love for technology and programming.\n\nNow, I focus on creating solutions that are scalable, user-friendly, and just work. My background in leadership and collaboration helps me thrive in team settings, where I bring people together, communicate openly, and keep projects on track. I’m naturally curious and always eager to learn new things, whether it’s a better way to solve a problem, the latest tool in tech or some random knowledge (Do you know that octopuses have 8 brains?).\n\nThis new chapter excites me, and I’m ready to bring my energy, skills, and drive to projects that make a difference.",
         },
         experience: {
             subtitle: "What I have done so far",
@@ -59,9 +59,9 @@ export const translations = {
         hero: {
             greeting: "Hola, soy",
             name: "Emiliano",
-            description_part1: "Soy un desarrollador MERN stack,",
+            description_part1: "Soy un desarrollador Full-stack,",
             description_part2:
-                "apasionado por construir aplicaciones web funcionales y aprender cosas nuevas.",
+                "apasionado por construir soluciones funcionales y aprender cosas nuevas.",
         },
         about: {
             introduction: "Introducción",
