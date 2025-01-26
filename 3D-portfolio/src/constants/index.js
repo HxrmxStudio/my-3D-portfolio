@@ -130,7 +130,7 @@ const experiences = [
     {
         translations: {
             en: {
-                title: "Team Lead Account Manager & Customer Care B2B - Spain",
+                title: "Team Lead Account Manager & Customer Care B2B",
                 company_name: "Papernest",
                 date: "March 2022 - September 2024",
                 points: [
@@ -141,7 +141,7 @@ const experiences = [
                 ],
             },
             es: {
-                title: "Líder de Equipo - Account Manager & Atención al Cliente B2B - España",
+                title: "Líder de Equipo - Account Manager & Atención al Cliente B2B ",
                 company_name: "Papernest",
                 date: "Marzo 2022 - Septiembre 2024",
                 points: [
