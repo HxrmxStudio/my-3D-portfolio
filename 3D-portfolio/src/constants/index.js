@@ -17,6 +17,7 @@ import {
     logoBuenardo,
     maindericon,
     threejs,
+    ruby,
     entelequiaPreview,
     portfolioPreview,
     unsocialPreview,
@@ -96,34 +97,41 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
+    {
+        name: "ruby",
+        icon: ruby,
+    },
 ];
 
 const experiences = [
     {
         translations: {
             en: {
-                title: "Frontend Developer",
+                title: "Full Stack Developer",
                 company_name: "MainderAI",
                 date: "January 2025 - Present",
                 points: [
-                    "Developed a Google Chrome extension with TypeScript and React to extract LinkedIn profiles for data enrichment.",
-                    "Designed a high-quality UX/UI interface, ensuring an intuitive user experience.",
-                    "Implemented scalable API solutions to automate and optimize data extraction.",
-                    "Collaborated to integrate AI-driven features, enhancing automation and user satisfaction.",
+                    "Built a multiposting integration with Ruby on Rails, automating job distribution.",
+                    "Optimized API endpoints for seamless Frontend-Backend communication.",
+                    "Integrated external APIs to automate workflows and enhance system capabilities.",
+                    "Improved UX by refining user interactions and system responsiveness.",
+                    "Maintained a LinkedIn profile extraction Chrome extension with TypeScript and React.",
                 ],
             },
             es: {
-                title: "Frontend Developer",
+                title: "Full Stack Developer",
                 company_name: "MainderAI",
                 date: "Enero 2025 - Presente",
                 points: [
-                    "Desarrollé una extensión de Google Chrome con TypeScript y React para la extracción de perfiles de LinkedIn.",
-                    "Diseñé una interfaz UX/UI de alta calidad, garantizando una experiencia intuitiva.",
-                    "Implementé soluciones escalables con APIs para automatizar y optimizar la extracción de datos.",
-                    "Colaboré en la integración de funciones basadas en IA, mejorando la automatización y la satisfacción del usuario.",
+                    "Desarrollé una integración de multiposting con Ruby on Rails, automatizando la distribución de ofertas.",
+                    "Optimicé endpoints de API para mejorar la comunicación Frontend-Backend.",
+                    "Integré APIs externas para automatizar procesos y potenciar el sistema.",
+                    "Mejoré la UX refinando interacciones y respuesta del sistema.",
+                    "Mantuve una extensión de Chrome para extracción de LinkedIn con TypeScript y React.",
                 ],
             },
         },
+
         icon: maindericon,
         iconBg: "#E6DEDD",
     },
@@ -252,7 +260,7 @@ const projects = [
             },
         ],
         image: linkedinExtension,
-        source_code_link1: "https://github.com/HxrmxStudio/",
+        source_code_link1: "https://chromewebstore.google.com/detail/mainder-linkedin-tool/ibkmpjhdaeggjgkpcemceedkiddjkbba",
         source_code_link2: "https://github.com/HxrmxStudio/"
     },
     {

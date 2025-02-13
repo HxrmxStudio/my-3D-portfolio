@@ -18,6 +18,7 @@ import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import typescript from "./tech/typescript.png"
+import ruby from "./tech/ruby.png"
 
 import alchemy from './alchemy.png'
 import logoBuenardo from './company/logoBuenardo.png'
@@ -53,6 +54,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  ruby,
   alchemy,
   logoBuenardo,
   papernestIcon,
